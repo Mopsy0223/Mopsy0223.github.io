@@ -2,37 +2,54 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+        <title>mopsy0223's blog</title>
         
         <style>
             body {
                 font-family: "consolas";
-
+                background-color: rgb(37, 37, 37);
+                margin: 20px;
+                border-left: grey solid 1px;
             }
             
             h1 {
-                font-size: 2.5em;
+                font-size: 3em;
                 text-align: center;
                 color: rgb(128, 60, 128);
+                
             }
             
             
             h2 {
-                color: rgb(255, 255, 255);
-                background-color: rgb(73, 141, 250);
+                color: rgb(14, 78, 151);
             }
             
             h3 {
                 font-size: 2em;
-                color: grey;
+                color: rgb(201, 151, 15);
             }
-            
+
+            h6 {
+                color: salmon
+            }
+
+            ul {
+                margin: 0;
+                padding: 0px;
+            }
+
             #contents_list {
-                list-style: none;
+                list-style-type:"#";
+                list-style-position: inside;
+                border-left: grey solid 1px;
+                margin-left: 30px;
+                color:salmon
             }
-            
-            p {
-                
+
+            .indent {
+                border-left: grey solid 1px;
+                margin-left: 30px;
+                padding: 5px;
             }
             
             .post {
@@ -46,6 +63,10 @@
                 margin-right: auto;
                 width: 15%;
              }
+
+            a {
+                color: lightsteelblue;
+            }
             
         </style>
         
@@ -54,49 +75,49 @@
         
         <h1>&#60;mopsy0223's_blog&#62;</h1>
         
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/InternetSlowdown_Day.gif" alt="loading gif" width="70" class="center">
-
-        <h3>.contents</h3>
-        <ul id="contents_list">
-            <li><a href="#first_post">first_post</a></li>
-            <li><a href="#second_post">second_post {pending}</a></li>
-            <li><a href="#third_post">third_post {pending}</a></li>
+        
+        <ul id="contents_list"><h3>.contents</h3>
+            <div class="indent">
+                <li><a href="#first_post">first_post</a></li>
+                <li><a href="#second_post">finished_intro_to_html_&_css</a></li>
+                <li><a href="#third_post">third_post {pending}</a></li>
+            </div>
         </ul>
         
-        <br>
-        
-        <h2 id="first_post">first_post {</h2>
-        <h6>17.4.2020</h6>
-        
-        <p class="post">&#60;!-- a few weeks into the covid-19 quarantine now and a few weeks into slowly learning how to program. so far i've finished the javascript basics and about half the css/html intro course (which is why i'm writing a blog now). so far so good, need to go back and refresh on javascript as it's been a few days since i've used it so i feel it's all going out of my head. don't want to rush everything either and not properly learn things. will try to keep this relatively updated. --&#62;</p>
-        
-        <h2>};</h2>
-        
+        <div class="indent">
+            <h2 id="first_post">&#60;first_post&#62;</h2>
+            <div class="indent">
+                <h6>17.4.2020</h6>
+                
+                <p class="post indent">&#60;!-- a few weeks into the covid-19 quarantine now and a few weeks into slowly learning how to program. so far i've finished the javascript basics and about half the css/html intro course (which is why i'm writing a blog now). so far so good, need to go back and refresh on javascript as it's been a few days since i've used it so i feel it's all going out of my head. don't want to rush everything either and not properly learn things. will try to keep this relatively updated. --&#62;</p>
+                
+                
+            </div>
+
+            <h2>&#60;/first_post&#62;</h2>
+
+        </div>
+
         <p><a href="#contents_list">Back to Contents</a></p>
-        
         <br>
-        
-        <h2 id="second_post">second_post {</h2>
-        <h6>17.4.2020</h6>
-        
-        <p class="post">&#60;!-- a few weeks into the covid-19 quarantine now and a few weeks into slowly learning how to program. so far i've finished the javascript basics and about half the css/html intro course (which is why i'm writing a blog now). so far so good, need to go back and refresh on javascript as it's been a few days since i've used it so i feel it's all going out of my head. don't want to rush everything either and not properly learn things. will try to keep this relatively updated. --&#62;</p>
-        
-        <h2>};</h2>
-        
+
+        <div class="indent">
+            <h2 id="second_post">&#60;finished_intro_to_html_&_css&#62;</h2>
+            <div class="indent">
+                <h6>17.4.2020</h6>
+                
+                <p class="post indent">&#60;!-- A couple days on now since my first post. finished another block of lessons on khan academy. finished their intro html and css now so time to power on to the next block. i've started trying to do javascript exercises in an app called enki to hopefully help keep those lessons fresh in my mind. trying out writing this from vs code instead of the khan academy editor. if this post makes it up on to my blog then i'll obviously have figured out how to use it. feeling good about progress so far so just got to keep pushing on and see where i end up, maybe by time this pandemic is over i'll be competent enough to actually make some useful things with all this. --&#62;</p>
+                
+                
+            </div>
+
+            <h2>&#60;/finished_intro_to_html_&_css&#62;</h2>
+
+        </div>
+
         <p><a href="#contents_list">Back to Contents</a></p>
-        
         <br>
         
-        <h2 id="third_post">third_post {</h2>
-        <h6>17.4.2020</h6>
-        
-        <p class="post">&#60;!-- a few weeks into the covid-19 quarantine now and a few weeks into slowly learning how to program. so far i've finished the javascript basics and about half the css/html intro course (which is why i'm writing a blog now). so far so good, need to go back and refresh on javascript as it's been a few days since i've used it so i feel it's all going out of my head. don't want to rush everything either and not properly learn things. will try to keep this relatively updated. --&#62;</p>
-        
-        <h2>};</h2>
-        
-        <p><a href="#contents_list">Back to Contents</a></p>
-        
-        <br>
         
         <h1>&#60;/mopsy0223's_blog&#62;</h1>
     </body>
